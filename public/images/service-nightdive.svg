@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-nightdive" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06101a"/>
+      <stop offset="50%" stop-color="#0d1f33"/>
+      <stop offset="100%" stop-color="#1a3a5c"/>
+    </linearGradient>
+    <filter id="blur-service-nightdive">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-nightdive)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-nightdive)">
+    <polygon points="341.18840145538604,0 372.6559810357213,0 404.6634328173306,600 309.18094967377675,600" fill="white" opacity="0.06"/>
+    <polygon points="168.75211121763988,0 217.99155354268322,0 259.6561497512937,600 127.0875150090294,600" fill="white" opacity="0.03"/>
+    <polygon points="435.80096270498257,0 475.66270230085206,0 539.3035266843091,600 372.16013832152555,600" fill="white" opacity="0.02"/>
+    <polygon points="128.48250805278252,0 183.672498954569,0 253.96903705415951,600 58.185969953192,600" fill="white" opacity="0.02"/>
+    <polygon points="374.2071157619399,0 433.949606954514,0 446.3326576227885,600 361.82406509366547,600" fill="white" opacity="0.03"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="529" cy="387" r="14" fill="white" opacity="0.08"/>
+    <circle cx="30" cy="77" r="5" fill="white" opacity="0.05"/>
+    <circle cx="599" cy="248" r="19" fill="white" opacity="0.04"/>
+    <circle cx="411" cy="232" r="20" fill="white" opacity="0.12"/>
+    <circle cx="178" cy="12" r="19" fill="white" opacity="0.13"/>
+    <circle cx="217" cy="345" r="8" fill="white" opacity="0.11"/>
+    <circle cx="430" cy="499" r="20" fill="white" opacity="0.06"/>
+    <circle cx="431" cy="523" r="8" fill="white" opacity="0.12"/>
+    <circle cx="485" cy="222" r="4" fill="white" opacity="0.12"/>
+    <circle cx="526" cy="344" r="17" fill="white" opacity="0.05"/>
+    <circle cx="448" cy="384" r="10" fill="white" opacity="0.07"/>
+    <circle cx="68" cy="199" r="4" fill="white" opacity="0.05"/>
+    <circle cx="633" cy="579" r="18" fill="white" opacity="0.07"/>
+    <circle cx="97" cy="482" r="12" fill="white" opacity="0.08"/>
+    <circle cx="703" cy="238" r="18" fill="white" opacity="0.10"/>
+    <circle cx="25" cy="600" r="12" fill="white" opacity="0.05"/>
+    <circle cx="96" cy="530" r="7" fill="white" opacity="0.10"/>
+    <circle cx="176" cy="313" r="11" fill="white" opacity="0.05"/>
+    <circle cx="627" cy="59" r="15" fill="white" opacity="0.12"/>
+    <circle cx="383" cy="56" r="9" fill="white" opacity="0.12"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Night Dives</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

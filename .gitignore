@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# project context & docs (not part of the app)
+00_Context/
+01_Related Documents/
+tasks/
+
+# large media files
+*.mp4
+
+# claude config
+.claude/

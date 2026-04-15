@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <linearGradient id="grad-cta-underwater" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a2342"/>
+      <stop offset="50%" stop-color="#1a4d6e"/>
+      <stop offset="100%" stop-color="#1e7a8a"/>
+    </linearGradient>
+    <filter id="blur-cta-underwater">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="1920" height="1080" fill="url(#grad-cta-underwater)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-cta-underwater)">
+    <polygon points="1286.3297284832306,0 1309.10719629617,0 1377.3457650659373,1080 1218.0911597134634,1080" fill="white" opacity="0.04"/>
+    <polygon points="1084.124843251286,0 1132.039797968984,0 1172.3494620873007,1080 1043.8151791329692,1080" fill="white" opacity="0.05"/>
+    <polygon points="1496.5376436052884,0 1545.227576316749,0 1576.4281077708017,1080 1465.3371121512357,1080" fill="white" opacity="0.05"/>
+    <polygon points="792.4043115963764,0 824.6440056311906,0 882.1635560197637,1080 734.8847612078032,1080" fill="white" opacity="0.03"/>
+    <polygon points="616.3646614446513,0 662.8916544238575,0 700.3560739396441,1080 578.9002419288647,1080" fill="white" opacity="0.05"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 270 Q120 255 240 270 Q360 285 480 270 Q600 255 720 270 Q840 285 960 270 Q1080 255 1200 270 Q1320 285 1440 270 Q1560 255 1680 270 Q1800 285 1920 270 L1920 1080 L0 1080 Z" fill="white" opacity="0.03"/>
+    <path d="M0 464.4 Q120 441.4 240 464.4 Q360 487.4 480 464.4 Q600 441.4 720 464.4 Q840 487.4 960 464.4 Q1080 441.4 1200 464.4 Q1320 487.4 1440 464.4 Q1560 441.4 1680 464.4 Q1800 487.4 1920 464.4 L1920 1080 L0 1080 Z" fill="white" opacity="0.05"/>
+    <path d="M0 658.8 Q120 627.8 240 658.8 Q360 689.8 480 658.8 Q600 627.8 720 658.8 Q840 689.8 960 658.8 Q1080 627.8 1200 658.8 Q1320 689.8 1440 658.8 Q1560 627.8 1680 658.8 Q1800 689.8 1920 658.8 L1920 1080 L0 1080 Z" fill="white" opacity="0.07"/>
+    <path d="M0 853.2 Q120 814.2 240 853.2 Q360 892.2 480 853.2 Q600 814.2 720 853.2 Q840 892.2 960 853.2 Q1080 814.2 1200 853.2 Q1320 892.2 1440 853.2 Q1560 814.2 1680 853.2 Q1800 892.2 1920 853.2 L1920 1080 L0 1080 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="1150" cy="35" r="9" fill="white" opacity="0.10"/>
+    <circle cx="419" cy="230" r="5" fill="white" opacity="0.12"/>
+    <circle cx="539" cy="50" r="7" fill="white" opacity="0.09"/>
+    <circle cx="558" cy="191" r="17" fill="white" opacity="0.11"/>
+    <circle cx="1411" cy="306" r="6" fill="white" opacity="0.07"/>
+    <circle cx="135" cy="865" r="17" fill="white" opacity="0.04"/>
+    <circle cx="472" cy="301" r="11" fill="white" opacity="0.05"/>
+    <circle cx="990" cy="267" r="20" fill="white" opacity="0.05"/>
+    <circle cx="1600" cy="854" r="13" fill="white" opacity="0.08"/>
+    <circle cx="1537" cy="870" r="17" fill="white" opacity="0.07"/>
+    <circle cx="1657" cy="887" r="14" fill="white" opacity="0.05"/>
+    <circle cx="296" cy="794" r="16" fill="white" opacity="0.07"/>
+    <circle cx="1381" cy="986" r="15" fill="white" opacity="0.13"/>
+    <circle cx="1788" cy="650" r="13" fill="white" opacity="0.10"/>
+    <circle cx="1101" cy="558" r="14" fill="white" opacity="0.10"/>
+    <circle cx="1279" cy="973" r="12" fill="white" opacity="0.10"/>
+    <circle cx="1415" cy="886" r="21" fill="white" opacity="0.11"/>
+    <circle cx="565" cy="256" r="18" fill="white" opacity="0.08"/>
+    <circle cx="890" cy="167" r="15" fill="white" opacity="0.08"/>
+    <circle cx="366" cy="1002" r="8" fill="white" opacity="0.07"/>
+    <circle cx="1084" cy="950" r="12" fill="white" opacity="0.04"/>
+    <circle cx="899" cy="321" r="9" fill="white" opacity="0.05"/>
+    <circle cx="690" cy="196" r="7" fill="white" opacity="0.05"/>
+    <circle cx="1221" cy="995" r="19" fill="white" opacity="0.09"/>
+    <circle cx="62" cy="799" r="9" fill="white" opacity="0.13"/>
+    <circle cx="833" cy="149" r="12" fill="white" opacity="0.12"/>
+    <circle cx="594" cy="22" r="8" fill="white" opacity="0.09"/>
+    <circle cx="1567" cy="102" r="7" fill="white" opacity="0.09"/>
+    <circle cx="1484" cy="967" r="4" fill="white" opacity="0.08"/>
+    <circle cx="904" cy="370" r="18" fill="white" opacity="0.05"/>
+    <circle cx="1811" cy="636" r="14" fill="white" opacity="0.05"/>
+    <circle cx="1799" cy="269" r="12" fill="white" opacity="0.09"/>
+    <circle cx="1452" cy="288" r="4" fill="white" opacity="0.10"/>
+    <circle cx="1823" cy="676" r="15" fill="white" opacity="0.11"/>
+    <circle cx="8" cy="599" r="5" fill="white" opacity="0.12"/>
+    <circle cx="649" cy="406" r="9" fill="white" opacity="0.11"/>
+    <circle cx="1331" cy="1009" r="4" fill="white" opacity="0.06"/>
+    <circle cx="1328" cy="722" r="9" fill="white" opacity="0.12"/>
+    <circle cx="62" cy="29" r="14" fill="white" opacity="0.09"/>
+    <circle cx="303" cy="979" r="7" fill="white" opacity="0.04"/>
+
+  <!-- Label text -->
+  <text x="960" y="530" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="48" font-weight="700" fill="white" opacity="0.85">CTA - Ready to Dive?</text>
+  <text x="960" y="574" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" fill="white" opacity="0.5">1920 x 1080 placeholder</text>
+</svg>

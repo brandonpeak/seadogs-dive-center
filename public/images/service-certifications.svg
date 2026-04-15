@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-certifications" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b4965"/>
+      <stop offset="50%" stop-color="#2a6f97"/>
+      <stop offset="100%" stop-color="#468faf"/>
+    </linearGradient>
+    <filter id="blur-service-certifications">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-certifications)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-certifications)">
+    <polygon points="559.0390046447825,0 594.9824510533721,0 657.4122636240904,600 496.60919207406414,600" fill="white" opacity="0.05"/>
+    <polygon points="289.91746560418835,0 341.5283659595385,0 375.68821949249,600 255.75761207123685,600" fill="white" opacity="0.04"/>
+    <polygon points="625.3548944560106,0 680.0589676022458,0 736.2005279046447,600 569.2133341536118,600" fill="white" opacity="0.03"/>
+    <polygon points="232.18345526221557,0 284.2461899823896,0 307.50692330119267,600 208.92272194341248,600" fill="white" opacity="0.02"/>
+    <polygon points="477.36566751623633,0 511.25100330347703,0 584.7609741023773,600 403.85569671733606,600" fill="white" opacity="0.02"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="685" cy="139" r="9" fill="white" opacity="0.11"/>
+    <circle cx="226" cy="306" r="13" fill="white" opacity="0.07"/>
+    <circle cx="359" cy="221" r="15" fill="white" opacity="0.07"/>
+    <circle cx="368" cy="520" r="16" fill="white" opacity="0.07"/>
+    <circle cx="642" cy="150" r="8" fill="white" opacity="0.12"/>
+    <circle cx="422" cy="428" r="12" fill="white" opacity="0.07"/>
+    <circle cx="524" cy="380" r="5" fill="white" opacity="0.07"/>
+    <circle cx="611" cy="397" r="3" fill="white" opacity="0.07"/>
+    <circle cx="537" cy="313" r="16" fill="white" opacity="0.08"/>
+    <circle cx="658" cy="443" r="4" fill="white" opacity="0.09"/>
+    <circle cx="566" cy="58" r="17" fill="white" opacity="0.13"/>
+    <circle cx="283" cy="558" r="9" fill="white" opacity="0.13"/>
+    <circle cx="781" cy="225" r="19" fill="white" opacity="0.11"/>
+    <circle cx="655" cy="547" r="4" fill="white" opacity="0.13"/>
+    <circle cx="598" cy="429" r="14" fill="white" opacity="0.05"/>
+    <circle cx="306" cy="31" r="9" fill="white" opacity="0.11"/>
+    <circle cx="281" cy="490" r="20" fill="white" opacity="0.09"/>
+    <circle cx="15" cy="248" r="19" fill="white" opacity="0.09"/>
+    <circle cx="447" cy="382" r="12" fill="white" opacity="0.13"/>
+    <circle cx="636" cy="358" r="8" fill="white" opacity="0.05"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Get Certified</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

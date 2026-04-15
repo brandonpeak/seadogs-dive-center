@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-wreck-generic" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b2545"/>
+      <stop offset="50%" stop-color="#134074"/>
+      <stop offset="100%" stop-color="#1d6a96"/>
+    </linearGradient>
+    <filter id="blur-wreck-generic">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-wreck-generic)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-wreck-generic)">
+    <polygon points="166.18660040534726,0 217.75706652793244,0 245.3567919333032,600 138.5868749999765,600" fill="white" opacity="0.05"/>
+    <polygon points="223.9511090299955,0 260.71508485783323,0 336.8166706642146,600 147.8495232236141,600" fill="white" opacity="0.05"/>
+    <polygon points="118.39092409249507,0 138.7372593029853,0 212.1404446719743,600 44.987738723506084,600" fill="white" opacity="0.05"/>
+    <polygon points="610.7526103291835,0 643.37339850044,0 699.8434483523588,600 554.2825604772647,600" fill="white" opacity="0.05"/>
+    <polygon points="439.1892921212205,0 497.3890429060253,0 559.7433755812336,600 376.83495944601214,600" fill="white" opacity="0.05"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="192" cy="323" r="13" fill="white" opacity="0.07"/>
+    <circle cx="798" cy="60" r="13" fill="white" opacity="0.07"/>
+    <circle cx="603" cy="567" r="16" fill="white" opacity="0.10"/>
+    <circle cx="743" cy="374" r="19" fill="white" opacity="0.08"/>
+    <circle cx="607" cy="88" r="16" fill="white" opacity="0.10"/>
+    <circle cx="163" cy="451" r="11" fill="white" opacity="0.06"/>
+    <circle cx="643" cy="555" r="4" fill="white" opacity="0.12"/>
+    <circle cx="447" cy="597" r="19" fill="white" opacity="0.05"/>
+    <circle cx="762" cy="513" r="16" fill="white" opacity="0.08"/>
+    <circle cx="782" cy="545" r="8" fill="white" opacity="0.06"/>
+    <circle cx="606" cy="596" r="18" fill="white" opacity="0.08"/>
+    <circle cx="293" cy="436" r="7" fill="white" opacity="0.09"/>
+    <circle cx="516" cy="248" r="19" fill="white" opacity="0.07"/>
+    <circle cx="466" cy="480" r="17" fill="white" opacity="0.04"/>
+    <circle cx="660" cy="55" r="18" fill="white" opacity="0.05"/>
+    <circle cx="399" cy="92" r="13" fill="white" opacity="0.13"/>
+    <circle cx="758" cy="190" r="14" fill="white" opacity="0.08"/>
+    <circle cx="365" cy="531" r="9" fill="white" opacity="0.13"/>
+    <circle cx="565" cy="409" r="11" fill="white" opacity="0.05"/>
+    <circle cx="407" cy="378" r="20" fill="white" opacity="0.13"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Wreck Dive</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

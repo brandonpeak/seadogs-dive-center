@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-charters" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d3b66"/>
+      <stop offset="50%" stop-color="#1a6b8a"/>
+      <stop offset="100%" stop-color="#2a9d8f"/>
+    </linearGradient>
+    <filter id="blur-service-charters">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-charters)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-charters)">
+    <polygon points="176.6785681269122,0 214.47335002671375,0 280.6865631810696,600 110.46535497255637,600" fill="white" opacity="0.05"/>
+    <polygon points="303.5320505495556,0 358.7256805129939,0 395.9069758418394,600 266.3507552207101,600" fill="white" opacity="0.04"/>
+    <polygon points="382.6517059937151,0 420.6732780324946,0 496.40635727654313,600 306.91862674966654,600" fill="white" opacity="0.04"/>
+    <polygon points="545.1882351277341,0 586.8092503679941,0 655.8865042235409,600 476.1109812721872,600" fill="white" opacity="0.03"/>
+    <polygon points="525.0484126471923,0 565.8756396973237,0 629.4263929908643,600 461.49765935365167,600" fill="white" opacity="0.06"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="551" cy="446" r="14" fill="white" opacity="0.11"/>
+    <circle cx="194" cy="524" r="10" fill="white" opacity="0.13"/>
+    <circle cx="593" cy="377" r="16" fill="white" opacity="0.07"/>
+    <circle cx="533" cy="147" r="9" fill="white" opacity="0.10"/>
+    <circle cx="158" cy="174" r="5" fill="white" opacity="0.08"/>
+    <circle cx="228" cy="31" r="6" fill="white" opacity="0.11"/>
+    <circle cx="440" cy="58" r="17" fill="white" opacity="0.05"/>
+    <circle cx="48" cy="134" r="10" fill="white" opacity="0.05"/>
+    <circle cx="733" cy="512" r="7" fill="white" opacity="0.14"/>
+    <circle cx="556" cy="18" r="17" fill="white" opacity="0.09"/>
+    <circle cx="611" cy="425" r="20" fill="white" opacity="0.05"/>
+    <circle cx="429" cy="414" r="9" fill="white" opacity="0.06"/>
+    <circle cx="85" cy="538" r="8" fill="white" opacity="0.10"/>
+    <circle cx="771" cy="341" r="19" fill="white" opacity="0.04"/>
+    <circle cx="754" cy="184" r="6" fill="white" opacity="0.07"/>
+    <circle cx="259" cy="506" r="7" fill="white" opacity="0.10"/>
+    <circle cx="83" cy="302" r="5" fill="white" opacity="0.12"/>
+    <circle cx="1" cy="98" r="16" fill="white" opacity="0.04"/>
+    <circle cx="438" cy="348" r="4" fill="white" opacity="0.09"/>
+    <circle cx="542" cy="93" r="10" fill="white" opacity="0.11"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Boat Charters</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-spearfishing" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b3d4e"/>
+      <stop offset="50%" stop-color="#1a5c6e"/>
+      <stop offset="100%" stop-color="#2e8b7a"/>
+    </linearGradient>
+    <filter id="blur-service-spearfishing">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-spearfishing)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-spearfishing)">
+    <polygon points="233.3035575354518,0 269.4750095472964,0 294.2776388498292,600 208.50092823291894,600" fill="white" opacity="0.06"/>
+    <polygon points="502.6484672661146,0 546.4526084758648,0 572.7749847458098,600 476.3260909961697,600" fill="white" opacity="0.03"/>
+    <polygon points="140.2710968217943,0 164.8800674665186,0 201.81126611209834,600 103.33989817621455,600" fill="white" opacity="0.04"/>
+    <polygon points="351.52360843018556,0 403.9840779300336,0 469.93421966469356,600 285.5734666955256,600" fill="white" opacity="0.04"/>
+    <polygon points="206.49034746253488,0 235.56626829327195,0 299.9138848029637,600 142.14273095284312,600" fill="white" opacity="0.05"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="446" cy="405" r="15" fill="white" opacity="0.10"/>
+    <circle cx="413" cy="374" r="13" fill="white" opacity="0.11"/>
+    <circle cx="684" cy="278" r="5" fill="white" opacity="0.05"/>
+    <circle cx="632" cy="85" r="11" fill="white" opacity="0.11"/>
+    <circle cx="56" cy="212" r="11" fill="white" opacity="0.08"/>
+    <circle cx="658" cy="38" r="5" fill="white" opacity="0.08"/>
+    <circle cx="577" cy="368" r="15" fill="white" opacity="0.11"/>
+    <circle cx="160" cy="148" r="19" fill="white" opacity="0.11"/>
+    <circle cx="315" cy="167" r="18" fill="white" opacity="0.06"/>
+    <circle cx="255" cy="403" r="19" fill="white" opacity="0.12"/>
+    <circle cx="655" cy="248" r="14" fill="white" opacity="0.08"/>
+    <circle cx="264" cy="151" r="10" fill="white" opacity="0.05"/>
+    <circle cx="335" cy="229" r="19" fill="white" opacity="0.11"/>
+    <circle cx="369" cy="530" r="15" fill="white" opacity="0.13"/>
+    <circle cx="144" cy="401" r="5" fill="white" opacity="0.13"/>
+    <circle cx="91" cy="440" r="21" fill="white" opacity="0.10"/>
+    <circle cx="400" cy="318" r="6" fill="white" opacity="0.05"/>
+    <circle cx="572" cy="49" r="20" fill="white" opacity="0.08"/>
+    <circle cx="424" cy="552" r="16" fill="white" opacity="0.07"/>
+    <circle cx="139" cy="177" r="9" fill="white" opacity="0.12"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Spearfishing</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

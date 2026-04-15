@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-lobster" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1a3a5c"/>
+      <stop offset="50%" stop-color="#2b5f7e"/>
+      <stop offset="100%" stop-color="#3d8b9e"/>
+    </linearGradient>
+    <filter id="blur-service-lobster">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-lobster)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-lobster)">
+    <polygon points="346.27519572100374,0 398.44129254541116,0 468.03313792520726,600 276.68335034120764,600" fill="white" opacity="0.05"/>
+    <polygon points="329.6547216691356,0 381.14194547747024,0 441.3066324188415,600 269.49003472776434,600" fill="white" opacity="0.04"/>
+    <polygon points="393.834394921946,0 426.81710991466025,0 509.37829014526767,600 311.2732146913386,600" fill="white" opacity="0.04"/>
+    <polygon points="195.8685265098733,0 221.29409165773436,0 251.38159254954533,600 165.78102561806233,600" fill="white" opacity="0.06"/>
+    <polygon points="587.2192495806813,0 644.2362892870987,0 679.1040966783463,600 552.3514421894337,600" fill="white" opacity="0.02"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="495" cy="42" r="11" fill="white" opacity="0.13"/>
+    <circle cx="336" cy="483" r="10" fill="white" opacity="0.07"/>
+    <circle cx="274" cy="17" r="21" fill="white" opacity="0.05"/>
+    <circle cx="716" cy="394" r="11" fill="white" opacity="0.08"/>
+    <circle cx="603" cy="126" r="9" fill="white" opacity="0.05"/>
+    <circle cx="324" cy="581" r="11" fill="white" opacity="0.13"/>
+    <circle cx="458" cy="389" r="8" fill="white" opacity="0.05"/>
+    <circle cx="448" cy="166" r="3" fill="white" opacity="0.09"/>
+    <circle cx="227" cy="116" r="20" fill="white" opacity="0.11"/>
+    <circle cx="55" cy="92" r="9" fill="white" opacity="0.05"/>
+    <circle cx="209" cy="50" r="8" fill="white" opacity="0.09"/>
+    <circle cx="90" cy="281" r="14" fill="white" opacity="0.05"/>
+    <circle cx="525" cy="353" r="3" fill="white" opacity="0.09"/>
+    <circle cx="248" cy="340" r="16" fill="white" opacity="0.08"/>
+    <circle cx="574" cy="545" r="11" fill="white" opacity="0.08"/>
+    <circle cx="1" cy="437" r="17" fill="white" opacity="0.04"/>
+    <circle cx="684" cy="393" r="7" fill="white" opacity="0.10"/>
+    <circle cx="280" cy="425" r="15" fill="white" opacity="0.08"/>
+    <circle cx="553" cy="480" r="7" fill="white" opacity="0.06"/>
+    <circle cx="748" cy="216" r="17" fill="white" opacity="0.10"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Lobster Hunting</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>

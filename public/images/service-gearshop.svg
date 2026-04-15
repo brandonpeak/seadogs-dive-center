@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad-service-gearshop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b3a4b"/>
+      <stop offset="50%" stop-color="#2a5c6e"/>
+      <stop offset="100%" stop-color="#3e8e8e"/>
+    </linearGradient>
+    <filter id="blur-service-gearshop">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background gradient -->
+  <rect width="800" height="600" fill="url(#grad-service-gearshop)"/>
+
+  <!-- Light rays from surface -->
+  <g filter="url(#blur-service-gearshop)">
+    <polygon points="396.241268086429,0 452.9109927980333,0 520.171124625467,600 328.9811362589953,600" fill="white" opacity="0.02"/>
+    <polygon points="300.570241716542,0 341.50380710345814,0 413.69577717275536,600 228.3782716472448,600" fill="white" opacity="0.04"/>
+    <polygon points="298.97348362139445,0 342.63373021184947,0 372.8214196422234,600 268.7857941910205,600" fill="white" opacity="0.03"/>
+    <polygon points="294.4861084262082,0 316.00584109907726,0 364.5754253242301,600 245.91652420105535,600" fill="white" opacity="0.04"/>
+    <polygon points="438.7142725079489,0 477.2323457625187,0 525.1060107040977,600 390.84060756636995,600" fill="white" opacity="0.04"/>
+  </g>
+
+  <!-- Wave patterns -->
+    <path d="M0 150 Q50 135 100 150 Q150 165 200 150 Q250 135 300 150 Q350 165 400 150 Q450 135 500 150 Q550 165 600 150 Q650 135 700 150 Q750 165 800 150 L800 600 L0 600 Z" fill="white" opacity="0.03"/>
+    <path d="M0 258 Q50 235 100 258 Q150 281 200 258 Q250 235 300 258 Q350 281 400 258 Q450 235 500 258 Q550 281 600 258 Q650 235 700 258 Q750 281 800 258 L800 600 L0 600 Z" fill="white" opacity="0.05"/>
+    <path d="M0 366 Q50 335 100 366 Q150 397 200 366 Q250 335 300 366 Q350 397 400 366 Q450 335 500 366 Q550 397 600 366 Q650 335 700 366 Q750 397 800 366 L800 600 L0 600 Z" fill="white" opacity="0.07"/>
+    <path d="M0 474 Q50 435 100 474 Q150 513 200 474 Q250 435 300 474 Q350 513 400 474 Q450 435 500 474 Q550 513 600 474 Q650 435 700 474 Q750 513 800 474 L800 600 L0 600 Z" fill="white" opacity="0.09"/>
+
+  <!-- Bubbles -->
+    <circle cx="310" cy="417" r="18" fill="white" opacity="0.12"/>
+    <circle cx="29" cy="31" r="7" fill="white" opacity="0.14"/>
+    <circle cx="289" cy="123" r="5" fill="white" opacity="0.07"/>
+    <circle cx="612" cy="233" r="11" fill="white" opacity="0.07"/>
+    <circle cx="7" cy="313" r="7" fill="white" opacity="0.06"/>
+    <circle cx="685" cy="415" r="12" fill="white" opacity="0.12"/>
+    <circle cx="275" cy="551" r="19" fill="white" opacity="0.08"/>
+    <circle cx="3" cy="2" r="12" fill="white" opacity="0.07"/>
+    <circle cx="100" cy="539" r="21" fill="white" opacity="0.05"/>
+    <circle cx="471" cy="54" r="17" fill="white" opacity="0.06"/>
+    <circle cx="311" cy="110" r="21" fill="white" opacity="0.07"/>
+    <circle cx="325" cy="18" r="18" fill="white" opacity="0.05"/>
+    <circle cx="354" cy="336" r="20" fill="white" opacity="0.10"/>
+    <circle cx="612" cy="201" r="10" fill="white" opacity="0.10"/>
+    <circle cx="246" cy="497" r="15" fill="white" opacity="0.13"/>
+    <circle cx="706" cy="301" r="15" fill="white" opacity="0.06"/>
+    <circle cx="579" cy="532" r="19" fill="white" opacity="0.08"/>
+    <circle cx="389" cy="468" r="18" fill="white" opacity="0.11"/>
+    <circle cx="259" cy="496" r="15" fill="white" opacity="0.08"/>
+    <circle cx="770" cy="421" r="12" fill="white" opacity="0.05"/>
+
+  <!-- Label text -->
+  <text x="400" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="white" opacity="0.85">Gear Shop</text>
+  <text x="400" y="326" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="white" opacity="0.5">800 x 600 placeholder</text>
+</svg>
