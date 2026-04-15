@@ -45,8 +45,8 @@ next-env.d.ts
 01_Related Documents/
 tasks/
 
-# large media files
-*.mp4
+# large raw media files (keep public/videos/ for the site)
+/15193914_1920_1080_60fps.mp4
 
 # claude config
 .claude/
