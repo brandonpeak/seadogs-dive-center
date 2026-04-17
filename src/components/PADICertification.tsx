@@ -37,12 +37,6 @@ export default function PADICertification({ levels }: PADICertificationProps) {
                   backgroundImage: "url(/images/service-certifications.jpg)",
                 }}
               />
-              {/* PADI logo overlay */}
-              <img
-                src="/images/padi-logo.png"
-                alt="PADI Dive Center"
-                className="absolute bottom-4 left-4 h-20 w-auto drop-shadow-lg"
-              />
 
               {/* Decorative accents */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-red-500/15 rounded-2xl -z-10" />
