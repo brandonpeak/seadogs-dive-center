@@ -38,13 +38,12 @@ export default function PADICertification({ levels }: PADICertificationProps) {
                 }}
               />
               {/* PADI logo overlay */}
-              <div className="absolute bottom-4 left-4 bg-white/95 backdrop-blur-sm rounded-lg px-4 py-2 shadow-md">
-                <img
-                  src="/images/padi-logo.png"
-                  alt="PADI Dive Center"
-                  className="h-10 w-auto"
-                />
-              </div>
+              <img
+                src="/images/padi-logo.png"
+                alt="PADI Dive Center"
+                className="absolute bottom-4 left-4 h-20 w-auto drop-shadow-lg"
+              />
+
               {/* Decorative accents */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-red-500/15 rounded-2xl -z-10" />
               <div className="absolute -top-4 -left-4 w-16 h-16 bg-ocean-400/20 rounded-2xl -z-10" />
